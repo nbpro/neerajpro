@@ -82,9 +82,24 @@ $app_name = idx($app_info, 'name', '');
 ?>
 
 <html>
+<head>
+ <script type="text/javascript" charset="utf-8">
+window.fbAsyncInit = function() 
+{
+    FB.init({ appId: '516126955092876', 
+    status: true, 
+    cookie: true,
+    xfbml: true,
+    oauth: true});
 
+    FB.Canvas.setAutoResize();
+    FB.Canvas.setAutoGrow();
+}
+    </script>
+</head>
+<body>
 
 <iframe src="http://www.tintup.com/neerajpro-1378742850" width="100%" height="800"></iframe> 
 
-
+</body>
 </html>
