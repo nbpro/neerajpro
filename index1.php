@@ -82,11 +82,9 @@ $app_name = idx($app_info, 'name', '');
 ?>
 
 <html>
-<style>
-    #myFrame { width:100%; height:100%; }
-</style>
 
-<iframe src="http://www.tintup.com/neerajpro-1378742850"  id="myFrame"></iframe> 
+
+<iframe src="http://www.tintup.com/neerajpro-1378742850" width="100%" height="800"></iframe> 
 
 
 </html>
