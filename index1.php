@@ -92,7 +92,7 @@ $app_name = idx($app_info, 'name', '');
   window.fbAsyncInit = function () {
     // Initialize the FB javascript SDK
     FB.init({
-      appId: '[516126955092876]',
+      appId: '516126955092876',
       status: true,
       cookie: true,
       xfbml: true
