@@ -83,21 +83,36 @@ $app_name = idx($app_info, 'name', '');
 
 <html>
 <head>
- <script type="text/javascript" charset="utf-8">
-window.fbAsyncInit = function() 
-{
-    FB.init({ appId: '516126955092876', 
-    status: true, 
-    cookie: true,
-    xfbml: true,
-    oauth: true});
+ </head>
+ <body>
+<div id="fb-root"></div>
+<script src="http://connect.facebook.net/en_US/all.js"></script>
+<script type="text/javascript">
+  // Called when FB SDK has been loaded
+  window.fbAsyncInit = function () {
+    // Initialize the FB javascript SDK
+    FB.init({
+      appId: '[516126955092876]',
+      status: true,
+      cookie: true,
+      xfbml: true
+    });
 
-    FB.Canvas.setAutoResize();
+    // Auto resize FB Canvas
     FB.Canvas.setAutoGrow();
-}
-    </script>
-</head>
-<body>
+  };
+
+  // Load the FB SDK Asynchronously
+  (function (d) {
+    var js, id = 'facebook-jssdk'; if (d.getElementById(id)) { return; }
+    js = d.createElement('script'); js.id = id; js.async = true;
+    js.src = "//connect.facebook.net/en_US/all.js";
+    d.getElementsByTagName('head')[0].appendChild(js);
+  } (document));
+
+</script>
+
+
 
 <iframe src="http://www.tintup.com/neerajpro-1378742850" width="100%" height="800"></iframe> 
 
