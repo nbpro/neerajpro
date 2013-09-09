@@ -80,10 +80,11 @@ $app_info = $facebook->api('/'. AppInfo::appID());
 $app_name = idx($app_info, 'name', '');
 
 ?>
+
+<html>
 <style>
     #myFrame { width:100%; height:100%; }
 </style>
-<html>
 
 <iframe src="http://www.tintup.com/neerajpro-1378742850"  id="myFrame"></iframe> 
 
