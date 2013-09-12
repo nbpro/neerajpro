@@ -85,23 +85,16 @@ $app_name = idx($app_info, 'name', '');
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" />
-<style type="text/css">
-body {
-width:520px;
-margin:0; padding:0; border:0;
-}
-</style>
-<script type='text/javascript'>
-window.onload=function() {
-  FB.Canvas.setSize({width:760,height:document.body.offsetHeight});
-}
+<script src="https://d36hc0p18k1aoc.cloudfront.net/public/js/modules/tintembed.js">
 </script>
 <meta http-equiv="Content-Type" content="text/html;
 charset=iso-8859-1" />
 </head>
 <body>
-<div id="container">
-<p><iframe src="http://www.tintup.com/neerajpro-1378742850"></iframe></p>
-</div>
+
+
+<div class="tintup" data-id="neerajpro-1378742850" data-columns=""  style="height:600px;width:800px;"><a href="http://www.tintup.com" style="width:118px;height:31px;background-image:url(//d33w9bm0n1egwm.cloudfront.net/assets/logos/poweredbytintsmall.png);position:absolute;bottom:10px;right: 20px;text-indent: -9999px;z-index:9;">hashtag aggregation</a></div>
+
 </body>
 </html>
+
