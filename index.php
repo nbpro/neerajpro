@@ -40,7 +40,6 @@ $facebook = new Facebook(array(
   'sharedSession' => true,
   'trustForwarded' => true,
 ));
-FB.Canvas.setSize({ width: 640px, height: 480px });
 
 $user_id = $facebook->getUser();
 if ($user_id) {
