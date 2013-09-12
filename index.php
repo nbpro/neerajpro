@@ -87,12 +87,20 @@ $app_name = idx($app_info, 'name', '');
 <link rel="stylesheet" type="text/css" href="style.css" />
 <script src="https://d36hc0p18k1aoc.cloudfront.net/public/js/modules/tintembed.js">
 </script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=375880885871855";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <meta http-equiv="Content-Type" content="text/html;
 charset=iso-8859-1" />
 </head>
 <body>
 
-
+<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fneerajpro&amp;width=450&amp;height=80&amp;colorscheme=light&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;send=true&amp;appId=375880885871855" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe>
 <div class="tintup" data-id="neerajpro-1378742850" data-columns=""  style="height:600px;width:800px;"><a href="http://www.tintup.com" style="width:118px;height:31px;background-image:url(//d33w9bm0n1egwm.cloudfront.net/assets/logos/poweredbytintsmall.png);position:absolute;bottom:10px;right: 20px;text-indent: -9999px;z-index:9;">hashtag aggregation</a></div>
 
 </body>
