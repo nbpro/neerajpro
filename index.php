@@ -91,6 +91,11 @@ width:520px;
 margin:0; padding:0; border:0;
 }
 </style>
+<script type='text/javascript'>
+window.onload=function() {
+  FB.Canvas.setSize({width:760,height:document.body.offsetHeight});
+}
+</script>
 <meta http-equiv="Content-Type" content="text/html;
 charset=iso-8859-1" />
 </head>
