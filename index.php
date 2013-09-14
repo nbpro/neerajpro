@@ -103,8 +103,7 @@ charset=iso-8859-1" />
 <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fneerajpro&amp;width=450&amp;height=80&amp;colorscheme=light&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;send=true&amp;appId=375880885871855" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true">
 
 </iframe>
-<div class="fb-send" data-href="https://www.facebook.com/neerajpro"></div>
-<div class="fb-recommendations" data-site="https://www.facebook.com/neerajpro" data-action="Comma separated list of action of action types" data-width="300" data-height="300" data-header="true"></div>
+
 <div class="tintup" data-id="neerajpro-1378742850" data-columns=""  style="height:600px;width:800px;"><a href="http://www.tintup.com" style="width:118px;height:31px;background-image:url(//d33w9bm0n1egwm.cloudfront.net/assets/logos/poweredbytintsmall.png);position:absolute;bottom:10px;right: 20px;text-indent: -9999px;z-index:9;">hashtag aggregation</a></div>
 
 </body>
